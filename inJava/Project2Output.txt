@@ -1,0 +1,242 @@
+Vehicle Management System is running.
+
+a - invalid command!
+b - invalid command!
+c - invalid command!
+d - invalid command!
+r - invalid command!
+pf - invalid command!
+pr - invalid command!
+pd - invalid command!
+pt - invalid command!
+pc - invalid command!
+There is no vehicle in the fleet.
+There is no booking record.
+There is no booking record.
+There is no completed trips.
+There is no archived trips for the cost report.
+718D - license plate number must be exactly 6 characters.
+5871812D - license plate number must be exactly 6 characters.
+58718A - last character is not a valid vehicle type.
+58X18A - first 5 characters must be numbers.
+0/1/2000 - invalid calendar date.
+13/11/2000 - invalid calendar date.
+2/29/1999 - invalid calendar date.
+6/31/2000 - invalid calendar date.
+7/32/2000 - invalid calendar date.
+7/0/2000 - invalid calendar date.
+food - invalid make.
+0 - invalid mileage.
+-1 - invalid mileage.
+For input string: "XX" - not a valid mileage.
+living - invalid location.
+Missing data tokens for adding a vehicle.
+20 vehicles loaded.
+0 vehicles loaded.
+0 vehicles loaded.
+*List of vehicles in the fleet, ordered by location/make/date obtained.
+57373D[FORD:utility] 11/8/2012 [mileage:121305] [Camden:Camden]
+34123X[HONDA:truck] 3/29/2010 [mileage:51010] [Camden:Camden]
+47990S[HONDA:sedan] 7/29/2024 [mileage:6250] [Camden:Camden]
+00109X[TOYOTA:truck] 7/31/2025 [mileage:1230] [Camden:Camden]
+57707D[CHEVY:utility] 4/6/2020 [mileage:65512] [Cook:New Brunswick]
+50682D[CHEVY:utility] 8/18/2020 [mileage:67200] [Livingston:New Brunswick]
+51393D[CHEVY:utility] 6/1/2022 [mileage:42100] [Livingston:New Brunswick]
+50805D[FORD:utility] 10/16/2016 [mileage:47798] [Busch:New Brunswick]
+58718D[FORD:utility] 2/29/2020 [mileage:64390] [Busch:New Brunswick]
+34448X[FORD:truck] 4/2/2023 [mileage:19880] [Livingston:New Brunswick]
+52103D[HONDA:utility] 4/30/2010 [mileage:150111] [Cook:New Brunswick]
+36349X[HONDA:truck] 5/5/2015 [mileage:76123] [Busch:New Brunswick]
+80671S[HONDA:sedan] 9/9/2022 [mileage:33220] [Livingston:New Brunswick]
+71707X[TOYOTA:truck] 9/29/2011 [mileage:120120] [Cook:New Brunswick]
+58719D[TOYOTA:utility] 1/31/2017 [mileage:87120] [Livingston:New Brunswick]
+51401D[TOYOTA:utility] 6/30/2021 [mileage:59978] [Livingston:New Brunswick]
+67155S[CHEVY:sedan] 3/1/2010 [mileage:101230] [Newark:Newark]
+23499X[CHEVY:truck] 6/13/2023 [mileage:19666] [Newark:Newark]
+67156S[FORD:sedan] 12/12/2012 [mileage:84390] [Newark:Newark]
+67359S[FORD:sedan] 11/1/2019 [mileage:59644] [Newark:Newark]
+*end of list.
+
+58718D has been removed from the fleet.
+58718D is not in the fleet.
+Missing data tokens for removing a vehicle.
+58718D[FORD:utility] 2/29/2020 [mileage:64390] [Busch:New Brunswick] has been added to the fleet.
+11/31/2025 - beginning date is not a valid calendar date.
+0/2/2026 - beginning date is not a valid calendar date.
+10/16/2025 - ending date must be equal or after the beginning date 10/30/2025
+9/20/2025 - beginning date is not today or a future date.
+1/27/2026 - beginning date beyond 3 months.
+13/16/2025 - ending date is not a valid calendar date.
+11/0/2025 - ending date is not a valid calendar date.
+John - not an eligible employee to book.
+Bussch - invalid location.
+11/24/2025 ~ 12/1/2025 - duration more than a week.
+58719D:TOYOTA [Livingston:New Brunswick] 11/24/2025 ~ 11/30/2025 [drop off:Busch] [LIM] booked.
+11/30/2025 ~ 12/7/2025 - duration more than a week.
+58719D - booking with 11/30/2025 ~ 12/6/2025 not available.
+LIM - has an existing booking conflicting with booking date 11/30/2025 ~ 12/6/2025
+LIM - has an existing booking conflicting with booking date 11/20/2025 ~ 11/24/2025
+08719D is not in the fleet.
+58719D:TOYOTA [Livingston:New Brunswick] 10/27/2025 ~ 10/30/2025 [drop off:Newark] [TAYLOR] booked.
+58719D - booking with 10/27/2025 ~ 10/30/2025 not available.
+58718D:FORD [Busch:New Brunswick] 10/28/2025 ~ 10/28/2025 [drop off:Busch] [KAUR] booked.
+58719D - booking with 10/30/2025 ~ 11/3/2025 not available.
+58718D:FORD [Busch:New Brunswick] 10/31/2025 ~ 11/3/2025 [drop off:Busch] [LIM] booked.
+TAYLOR - has an existing booking conflicting with booking date 10/27/2025 ~ 10/27/2025
+58718D - booking with 10/28/2025 ~ 10/28/2025 not available.
+67156S:FORD [Newark:Newark] 11/1/2025 ~ 11/1/2025 [drop off:Livingston] [TAYLOR] booked.
+*List of reservations ordered by location/license plate/beginning date.
+58718D:FORD [Busch:New Brunswick] 10/28/2025 ~ 10/28/2025 [drop off:Busch] [KAUR]
+58718D:FORD [Busch:New Brunswick] 10/31/2025 ~ 11/3/2025 [drop off:Busch] [LIM]
+58719D:TOYOTA [Livingston:New Brunswick] 10/27/2025 ~ 10/30/2025 [drop off:Newark] [TAYLOR]
+58719D:TOYOTA [Livingston:New Brunswick] 11/24/2025 ~ 11/30/2025 [drop off:Busch] [LIM]
+67156S:FORD [Newark:Newark] 11/1/2025 ~ 11/1/2025 [drop off:Livingston] [TAYLOR]
+*end of list.
+
+58718D:FORD [Busch:New Brunswick] 10/27/2025 ~ 10/27/2025 [drop off:Cook] [HARPER] booked.
+58718D:FORD [Busch:New Brunswick] 11/4/2025 ~ 11/4/2025 [drop off:Busch] [HARPER] booked.
+58718D:FORD [Busch:New Brunswick] 11/5/2025 ~ 11/8/2025 [drop off:Livingston] [HARPER] booked.
+34123X:HONDA [Camden:Camden] 11/3/2025 ~ 11/3/2025 [drop off:Busch] [CERAVOLO] booked.
+CERAVOLO - has an existing booking conflicting with booking date 11/3/2025 ~ 11/3/2025
+71707X:TOYOTA [Cook:New Brunswick] 11/3/2025 ~ 11/3/2025 [drop off:Cook] [RAMESH] booked.
+52103D:HONDA [Cook:New Brunswick] 11/10/2025 ~ 11/11/2025 [drop off:Newark] [CERAVOLO] booked.
+80671S:HONDA [Livingston:New Brunswick] 11/3/2025 ~ 11/5/2025 [drop off:Cook] [ZIMNES] booked.
+80671S - booking with 10/31/2025 ~ 11/3/2025 not available.
+80671S:HONDA [Livingston:New Brunswick] 10/31/2025 ~ 11/2/2025 [drop off:Livingston] [CERAVOLO] booked.
+CERAVOLO - has an existing booking conflicting with booking date 10/31/2025 ~ 11/2/2025
+67359S:FORD [Newark:Newark] 10/31/2025 ~ 11/2/2025 [drop off:Livingston] [KAUR] booked.
+67359S - booking with 11/1/2025 ~ 11/1/2025 not available.
+67359S:FORD [Newark:Newark] 11/3/2025 ~ 11/3/2025 [drop off:Livingston] [KAUR] booked.
+23499X:CHEVY [Newark:Newark] 10/29/2025 ~ 10/29/2025 [drop off:Newark] [CERAVOLO] booked.
+KAUR - has an existing booking conflicting with booking date 10/28/2025 ~ 10/28/2025
+47990S:HONDA [Camden:Camden] 11/20/2025 ~ 11/25/2025 [drop off:Busch] [PATEL] booked.
+47990S - booking with 11/15/2025 ~ 11/20/2025 not available.
+47990S - booking with 11/25/2025 ~ 11/25/2025 not available.
+47990S:HONDA [Camden:Camden] 11/16/2025 ~ 11/16/2025 [drop off:Busch] [PATEL] booked.
+*List of reservations ordered by department and employee.
+--Business Analytics and Information Technology--
+	34123X:HONDA [Camden:Camden] 11/3/2025 ~ 11/3/2025 [drop off:Busch] [CERAVOLO]
+	52103D:HONDA [Cook:New Brunswick] 11/10/2025 ~ 11/11/2025 [drop off:Newark] [CERAVOLO]
+	80671S:HONDA [Livingston:New Brunswick] 10/31/2025 ~ 11/2/2025 [drop off:Livingston] [CERAVOLO]
+	23499X:CHEVY [Newark:Newark] 10/29/2025 ~ 10/29/2025 [drop off:Newark] [CERAVOLO]
+--Computer Science--
+	47990S:HONDA [Camden:Camden] 11/20/2025 ~ 11/25/2025 [drop off:Busch] [PATEL]
+	47990S:HONDA [Camden:Camden] 11/16/2025 ~ 11/16/2025 [drop off:Busch] [PATEL]
+	80671S:HONDA [Livingston:New Brunswick] 11/3/2025 ~ 11/5/2025 [drop off:Cook] [ZIMNES]
+--Electrical Engineering--
+	58718D:FORD [Busch:New Brunswick] 11/5/2025 ~ 11/8/2025 [drop off:Livingston] [HARPER]
+	58718D:FORD [Busch:New Brunswick] 11/4/2025 ~ 11/4/2025 [drop off:Busch] [HARPER]
+	58718D:FORD [Busch:New Brunswick] 10/27/2025 ~ 10/27/2025 [drop off:Cook] [HARPER]
+	58718D:FORD [Busch:New Brunswick] 10/31/2025 ~ 11/3/2025 [drop off:Busch] [LIM]
+	58719D:TOYOTA [Livingston:New Brunswick] 11/24/2025 ~ 11/30/2025 [drop off:Busch] [LIM]
+--Information Technology and Informatics--
+	67359S:FORD [Newark:Newark] 10/31/2025 ~ 11/2/2025 [drop off:Livingston] [KAUR]
+	67359S:FORD [Newark:Newark] 11/3/2025 ~ 11/3/2025 [drop off:Livingston] [KAUR]
+	58718D:FORD [Busch:New Brunswick] 10/28/2025 ~ 10/28/2025 [drop off:Busch] [KAUR]
+--Mathematics--
+	71707X:TOYOTA [Cook:New Brunswick] 11/3/2025 ~ 11/3/2025 [drop off:Cook] [RAMESH]
+	67156S:FORD [Newark:Newark] 11/1/2025 ~ 11/1/2025 [drop off:Livingston] [TAYLOR]
+	58719D:TOYOTA [Livingston:New Brunswick] 10/27/2025 ~ 10/30/2025 [drop off:Newark] [TAYLOR]
+*end of list.
+
+58718D:11/4/2025 ~ 11/4/2025 has been canceled.
+58718D:11/4/2025 ~ 11/4/2025 - cannot find the booking.
+58719D booked with ending date 10/17/2025 - cannot find the booking.
+58719D booked with end date 10/30/2025 - returning not in order of ending date.
+0 - invalid mileage.
+Invalid mileage - current mileage: 64390 entered mileage: 64000
+Trip completed: 58718D 10/27/2025 ~ 10/27/2025 mileage(old): 64390 mileage(new): 64500 mileage(used): 110 [dropped off: Cook**] [picked up: Busch]
+Trip completed: 58718D 10/28/2025 ~ 10/28/2025 mileage(old): 64500 mileage(new): 64629 mileage(used): 129 [dropped off: Busch**] [picked up: Cook]
+67156S booked with end date 11/1/2025 - returning not in order of ending date.
+58719D booked with end date 10/30/2025 - returning not in order of ending date.
+Invalid mileage - current mileage: 19666 entered mileage: 19000
+Trip completed: 23499X 10/29/2025 ~ 10/29/2025 mileage(old): 19666 mileage(new): 19900 mileage(used): 234 [dropped off: Newark] [picked up: Newark]
+Trip completed: 58719D 10/27/2025 ~ 10/30/2025 mileage(old): 87120 mileage(new): 87234 mileage(used): 114 [dropped off: Newark**] [picked up: Livingston]
+Trip completed: 67156S 11/1/2025 ~ 11/1/2025 mileage(old): 84390 mileage(new): 84500 mileage(used): 110 [dropped off: Livingston**] [picked up: Newark]
+Trip completed: 80671S 10/31/2025 ~ 11/2/2025 mileage(old): 33220 mileage(new): 33333 mileage(used): 113 [dropped off: Livingston] [picked up: Livingston]
+Trip completed: 67359S 10/31/2025 ~ 11/2/2025 mileage(old): 59644 mileage(new): 59800 mileage(used): 156 [dropped off: Livingston**] [picked up: Newark]
+Trip completed: 34123X 11/3/2025 ~ 11/3/2025 mileage(old): 51010 mileage(new): 51321 mileage(used): 311 [dropped off: Busch**] [picked up: Camden]
+Trip completed: 58718D 10/31/2025 ~ 11/3/2025 mileage(old): 64629 mileage(new): 65100 mileage(used): 471 [dropped off: Busch] [picked up: Busch]
+Trip completed: 67359S 11/3/2025 ~ 11/3/2025 mileage(old): 59800 mileage(new): 59999 mileage(used): 199 [dropped off: Livingston] [picked up: Livingston]
+58719D - has existing bookings; cannot be removed.
+23499X has been removed from the fleet.
+*List of reservations ordered by location/license plate/beginning date.
+47990S:HONDA [Camden:Camden] 11/16/2025 ~ 11/16/2025 [drop off:Busch] [PATEL]
+47990S:HONDA [Camden:Camden] 11/20/2025 ~ 11/25/2025 [drop off:Busch] [PATEL]
+52103D:HONDA [Cook:New Brunswick] 11/10/2025 ~ 11/11/2025 [drop off:Newark] [CERAVOLO]
+58718D:FORD [Busch:New Brunswick] 11/5/2025 ~ 11/8/2025 [drop off:Livingston] [HARPER]
+71707X:TOYOTA [Cook:New Brunswick] 11/3/2025 ~ 11/3/2025 [drop off:Cook] [RAMESH]
+80671S:HONDA [Livingston:New Brunswick] 11/3/2025 ~ 11/5/2025 [drop off:Cook] [ZIMNES]
+58719D:TOYOTA [Newark:Newark] 11/24/2025 ~ 11/30/2025 [drop off:Busch] [LIM]
+*end of list.
+
+*List of completed trips ordered by license plate and ending date.
+23499X 10/29/2025 ~ 10/29/2025 mileage(old): 19666 mileage(new): 19900 mileage(used): 234 [dropped off: Newark]
+34123X 11/3/2025 ~ 11/3/2025 mileage(old): 51010 mileage(new): 51321 mileage(used): 311 [dropped off: Busch**]
+58718D 10/27/2025 ~ 10/27/2025 mileage(old): 64390 mileage(new): 64500 mileage(used): 110 [dropped off: Cook**]
+58718D 10/28/2025 ~ 10/28/2025 mileage(old): 64500 mileage(new): 64629 mileage(used): 129 [dropped off: Busch**]
+58718D 10/31/2025 ~ 11/3/2025 mileage(old): 64629 mileage(new): 65100 mileage(used): 471 [dropped off: Busch]
+58719D 10/27/2025 ~ 10/30/2025 mileage(old): 87120 mileage(new): 87234 mileage(used): 114 [dropped off: Newark**]
+67156S 11/1/2025 ~ 11/1/2025 mileage(old): 84390 mileage(new): 84500 mileage(used): 110 [dropped off: Livingston**]
+67359S 10/31/2025 ~ 11/2/2025 mileage(old): 59644 mileage(new): 59800 mileage(used): 156 [dropped off: Livingston**]
+67359S 11/3/2025 ~ 11/3/2025 mileage(old): 59800 mileage(new): 59999 mileage(used): 199 [dropped off: Livingston]
+80671S 10/31/2025 ~ 11/2/2025 mileage(old): 33220 mileage(new): 33333 mileage(used): 113 [dropped off: Livingston]
+*end of list.
+
+*List of vehicles in the fleet, ordered by location/make/date obtained.
+57373D[FORD:utility] 11/8/2012 [mileage:121305] [Camden:Camden]
+47990S[HONDA:sedan] 7/29/2024 [mileage:6250] [Camden:Camden]
+00109X[TOYOTA:truck] 7/31/2025 [mileage:1230] [Camden:Camden]
+57707D[CHEVY:utility] 4/6/2020 [mileage:65512] [Cook:New Brunswick]
+50682D[CHEVY:utility] 8/18/2020 [mileage:67200] [Livingston:New Brunswick]
+51393D[CHEVY:utility] 6/1/2022 [mileage:42100] [Livingston:New Brunswick]
+67156S[FORD:sedan] 12/12/2012 [mileage:84500] [Livingston:New Brunswick]
+50805D[FORD:utility] 10/16/2016 [mileage:47798] [Busch:New Brunswick]
+67359S[FORD:sedan] 11/1/2019 [mileage:59999] [Livingston:New Brunswick]
+58718D[FORD:utility] 2/29/2020 [mileage:65100] [Busch:New Brunswick]
+34448X[FORD:truck] 4/2/2023 [mileage:19880] [Livingston:New Brunswick]
+34123X[HONDA:truck] 3/29/2010 [mileage:51321] [Busch:New Brunswick]
+52103D[HONDA:utility] 4/30/2010 [mileage:150111] [Cook:New Brunswick]
+36349X[HONDA:truck] 5/5/2015 [mileage:76123] [Busch:New Brunswick]
+80671S[HONDA:sedan] 9/9/2022 [mileage:33333] [Livingston:New Brunswick]
+71707X[TOYOTA:truck] 9/29/2011 [mileage:120120] [Cook:New Brunswick]
+51401D[TOYOTA:utility] 6/30/2021 [mileage:59978] [Livingston:New Brunswick]
+67155S[CHEVY:sedan] 3/1/2010 [mileage:101230] [Newark:Newark]
+58719D[TOYOTA:utility] 1/31/2017 [mileage:87234] [Newark:Newark]
+*end of list.
+
+*List of charges ordered by department.
+--Business Analytics and Information Technology--
+	23499X 10/29/2025 ~ 10/29/2025 mileage(old): 19666 mileage(new): 19900 mileage(used): 234 [dropped off: Newark]
+		[charge: $699.66] [surcharge: no] [total charge: $ 699.66]
+	34123X 11/3/2025 ~ 11/3/2025 mileage(old): 51010 mileage(new): 51321 mileage(used): 311 [dropped off: Busch**]
+		[charge: $929.89] [surcharge: $39.99] [total charge: $ 969.88]
+	80671S 10/31/2025 ~ 11/2/2025 mileage(old): 33220 mileage(new): 33333 mileage(used): 113 [dropped off: Livingston]
+		[charge: $202.27] [surcharge: no] [total charge: $ 202.27]
+  <*>Department total: $ 1,871.81
+--Electrical Engineering--
+	58718D 10/31/2025 ~ 11/3/2025 mileage(old): 64629 mileage(new): 65100 mileage(used): 471 [dropped off: Busch]
+		[charge: $937.29] [surcharge: no] [total charge: $ 937.29]
+	58718D 10/27/2025 ~ 10/27/2025 mileage(old): 64390 mileage(new): 64500 mileage(used): 110 [dropped off: Cook**]
+		[charge: $218.90] [surcharge: $33.00] [total charge: $ 251.90]
+  <*>Department total: $ 1,189.19
+--Information Technology and Informatics--
+	67359S 10/31/2025 ~ 11/2/2025 mileage(old): 59644 mileage(new): 59800 mileage(used): 156 [dropped off: Livingston**]
+		[charge: $279.24] [surcharge: $32.99] [total charge: $ 312.23]
+	67359S 11/3/2025 ~ 11/3/2025 mileage(old): 59800 mileage(new): 59999 mileage(used): 199 [dropped off: Livingston]
+		[charge: $356.21] [surcharge: no] [total charge: $ 356.21]
+	58718D 10/28/2025 ~ 10/28/2025 mileage(old): 64500 mileage(new): 64629 mileage(used): 129 [dropped off: Busch**]
+		[charge: $256.71] [surcharge: $35.99] [total charge: $ 292.70]
+  <*>Department total: $ 961.14
+--Mathematics--
+	67156S 11/1/2025 ~ 11/1/2025 mileage(old): 84390 mileage(new): 84500 mileage(used): 110 [dropped off: Livingston**]
+		[charge: $196.90] [surcharge: $27.50] [total charge: $ 224.40]
+	58719D 10/27/2025 ~ 10/30/2025 mileage(old): 87120 mileage(new): 87234 mileage(used): 114 [dropped off: Newark**]
+		[charge: $226.86] [surcharge: $34.20] [total charge: $ 261.06]
+  <*>Department total: $ 485.46
+*end of list.
+
+q - invalid command!
+
+Vehicle Management System is terminated. 
+
